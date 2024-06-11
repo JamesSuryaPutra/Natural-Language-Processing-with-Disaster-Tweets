@@ -28,13 +28,15 @@ Tweet source: https://twitter.com/AnyOtherAnnaK/status/629195955506708480
 Submissions are evaluated using F1 between the predicted and expected answers.
 
 F1 is calculated as follows:
-F1=2∗precision∗recallprecision+recall
+
+F1 = 2 ∗ precision ∗ recall / precision + recall
 
 where:
-precision=TPTP+FP
-recall=TPTP+FN
+
+precision = TPTP + FP
+recall = TPTP + FN
 
 and:
-True Positive [TP] = your prediction is 1, and the ground truth is also 1 - you predicted a positive and that's true!
-False Positive [FP] = your prediction is 1, and the ground truth is 0 - you predicted a positive, and that's false.
-False Negative [FN] = your prediction is 0, and the ground truth is 1 - you predicted a negative, and that's false.
+- True Positive [TP] = your prediction is 1, and the ground truth is also 1 - you predicted a positive and that's true!
+- False Positive [FP] = your prediction is 1, and the ground truth is 0 - you predicted a positive, and that's false.
+- False Negative [FN] = your prediction is 0, and the ground truth is 1 - you predicted a negative, and that's false.
