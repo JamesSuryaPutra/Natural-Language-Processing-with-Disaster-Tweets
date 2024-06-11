@@ -34,6 +34,7 @@ F1 = 2 ∗ precision ∗ recall / precision + recall
 where:
 
 precision = TPTP + FP
+
 recall = TPTP + FN
 
 and:
